@@ -30,7 +30,9 @@ h1{
     background-position:center;
     border-radius:50%;
     overflow:hidden;
+    transition:all .5s ease-in-out;
     animation:animate 8s linear infinite;
+    box-shadow: 0 0 60px rgba(0,0,0,.85);
 }
 .earth:before{
     content:'';
@@ -58,6 +60,7 @@ h1{
     left:50%;
     width:120px;
     z-index:2;
+    transition:all .5s ease-in-out;
     transform:translate(-50%, -50%) rotate(-90deg);
 }
 .earth .plane img{
